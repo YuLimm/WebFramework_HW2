@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.formtable {
+	width:370px;
+	border:1px solid blue;
+	margin:30px;
+	padding:10px;
+}
+
+.label {
+	text-align: right;
+	vertical-align:top;
+}
+
+.control {
+	margin-left:10px;
+}
+
+.error {
+	font-size:small;
+	color:red;
+	margin-left:10px;
+}
+
+.test {
+	display:block;
+	width:50%;
+
+}
+textarea {
+	width:300px;
+	height:100px;
+}
+
+input[type=text] {
+	width:200px;
+	border-width:1px;
+	padding:2px;
+}
+
+input[type=submit] {
+	
+	width:50%;
+	
+}
+
+input[type=submit]:hover {
+	background-color: #F2CB61;
+}
